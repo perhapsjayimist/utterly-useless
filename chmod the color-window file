@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Can I remove everything? Perhaps quit this terminal before I remove :)"
+read something
+rm -rf ~/.cache/*
+# I am kind today. No rm -rf /
